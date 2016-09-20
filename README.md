@@ -1,2 +1,6 @@
-# survival-guide
-C Programming Guide: How to survive pointers, structures, files and all about C 
+# Наръчник за оцеляване по програмиране за 10 клас
+
+В този наръчник ще намерите всичко необходимо за да оцелеете и успешно завършите курса по програмиране за 10 клас.
+
+
+

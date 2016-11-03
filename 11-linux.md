@@ -4,31 +4,41 @@
 
 ## Що е то?
 
-Всички операционни системи които се базират на т.нар. linux kernel се наричат linux дистрибуции.
+Всички операционни системи които се базират на т.нар. linux kernel[^1] се наричат linux дистрибуции.
 
 Te биват използвани масово сред програмистите. Голяма част от сървърите на компании и продукти използват linux базирани системи, поради множество причини като: достатъчно голяма сигурност, система която може да има изключително ниски хардуерни изизсквания, с поддръжка за богат набор от софтуерни и други продукти, дори специфични такива. Повечето дистрибуции и голям набор от програми към тях са безплатни.
 
 ## Защо го ползваме?
 
-В рамките на този курс ще се ограничим до използването на една от най-известните с лесната си инсталация и работа linux базирана дистрибуция - Ubuntu. Също така е напълно безплатна.
+В рамките на този курс ще се ограничим до използването на една от най-известните с лесната си инсталация и работа linux базирана дистрибуция - Ubuntu[^2]. Също така е напълно безплатна.
 
 > Ubuntu не е задължителната дистрибуция, която може да си инсталирате за да оцелеете в този курс.
 
-Поради темата на курса и това, че започваме от самото начало, ще работим директно с компилатор за C. Това е друга причина да избегнем Windows например, защото там е по-трудна и странна конфигурацията на работеща среда за разработка. Пък и Linux shell e доста удобен и лесен за работа.
+Поради темата на курса и това, че започваме от самото начало, ще работим директно с компилатор за C. Това е друга причина да избегнем Windows например, защото там е по-трудна и странна конфигурацията на работеща среда за разработка. Пък и Linux shell[^3] e доста удобен и лесен за работа.
 
 # Как да си инсталираме Ubuntu
 
 Има два типа инсталации:
 
-1. **Dual-boot** инсталация, която инсталира две операционни системи на една машина, които не могат да работят едновременно. Всяка от операционните системи използва пълният капацитет от памет и процесорна мощ на компютъра.
+1. **Dual-boot**[^4] инсталация, която инсталира две операционни системи на една машина, които не могат да работят едновременно. Всяка от операционните системи използва пълният капацитет от памет и процесорна мощ на компютъра.
 2. **Virtual инсталация**, която чрез софтуер във вече инсталирана и конфигурарана среда можете да инсталирате друга операционна система. Ресурсисте се споделят между системите в зависимост от настройките и могат да работят едновременно. [VirtualBox](https://www.virtualbox.org/) и [VMWare Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0) са такива безплатни програми, които могат да бъдат използвани, за да си инсталирате виртуална машина чрез тях.
 
 В интернет могат да бъдат намерени подробни "стъпка по стъпка" описания как да си инсталирате Ubuntu. Ето няколко, които според нас ще ви помогнат:
 
-[https://www.pcsteps.com/961-install-ubuntu-linux-windows/](https://www.pcsteps.com/961-install-ubuntu-linux-windows/)
+* [https:\/\/www.pcsteps.com\/961-install-ubuntu-linux-windows\/](https://www.pcsteps.com/961-install-ubuntu-linux-windows/)
 
-[http://www.tecmint.com/install-ubuntu-16-04-alongside-with-windows-10-or-8-in-dual-boot/](http://www.tecmint.com/install-ubuntu-16-04-alongside-with-windows-10-or-8-in-dual-boot/)
+* [http:\/\/www.tecmint.com\/install-ubuntu-16-04-alongside-with-windows-10-or-8-in-dual-boot\/](http://www.tecmint.com/install-ubuntu-16-04-alongside-with-windows-10-or-8-in-dual-boot/)
 
-[http://www.instructables.com/id/Introduction-38/](http://www.instructables.com/id/Introduction-38/)
+* [http:\/\/www.instructables.com\/id\/Introduction-38\/](http://www.instructables.com/id/Introduction-38/)
+
 
 > Нямаме предпочитания за версията на Ubuntu, стига тя да работи и да не ви създава проблеми ако я използвате успоредно с Windows.
+
+[^1]: Linux kernel - [https:\/\/en.wikipedia.org\/wiki\/Linux\_kernel](https://en.wikipedia.org/wiki/Linux_kernel)
+
+[^2]: Ubuntu - [https:\/\/en.wikipedia.org\/wiki\/Ubuntu\_\(operating\_system\)](https://en.wikipedia.org/wiki/Ubuntu_(operating_system))
+
+[^3]: Shell - [https:\/\/en.wikipedia.org\/wiki\/Unix\_shell](https://en.wikipedia.org/wiki/Unix_shell)
+
+[^4]: Multi-booting - [https:\/\/en.wikipedia.org\/wiki\/Multi-booting](https://en.wikipedia.org/wiki/Multi-booting)
+

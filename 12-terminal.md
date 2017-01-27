@@ -82,11 +82,11 @@ CD идва от **Change Directory** и като почти всяка кома
 
 ## Полезни линкове
 
-* [http:\/\/www.learnshell.org\/](http://www.learnshell.org/)
+* [Learnshell.org](http://www.learnshell.org/)
 
-* [http:\/\/explainshell.com\/](http://explainshell.com/)
+* [Explainshell.com](http://explainshell.com/)
 
-* [https:\/\/github.com\/jlevy\/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)
+* [The art of command line](https://github.com/jlevy/the-art-of-command-line)
 
 
 

@@ -25,11 +25,11 @@ Te биват използвани масово сред програмисти�
 
 > Нямаме предпочитания за версията на Ubuntu, стига тя да работи и да не ви създава проблеми ако я използвате успоредно с Windows.
 
-[^1]: Linux kernel - [https:\/\/en.wikipedia.org\/wiki\/Linux\_kernel](https://en.wikipedia.org/wiki/Linux_kernel)
+[^1]: [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel)
 
-[^2]: Ubuntu - [https:\/\/en.wikipedia.org\/wiki\/Ubuntu\_\(operating\_system\)](https://en.wikipedia.org/wiki/Ubuntu_(operating_system)\)
+[^2]: [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu_(operating_system))
 
-[^3]: Shell - [https:\/\/en.wikipedia.org\/wiki\/Unix\_shell](https://en.wikipedia.org/wiki/Unix_shell)
+[^3]: [Shell](https://en.wikipedia.org/wiki/Unix_shell)
 
-[^4]: Multi-booting - [https:\/\/en.wikipedia.org\/wiki\/Multi-booting](https://en.wikipedia.org/wiki/Multi-booting)
+[^4]: [Multi-booting](https://en.wikipedia.org/wiki/Multi-booting)
 

@@ -10,7 +10,6 @@
             "weibo": false,
             "instapaper": false,
             "vk": false,
-            "all": "facebook,google,twitter,weibo,instapaper"
         }
     }
 }

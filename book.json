@@ -1,5 +1,16 @@
 {
     "plugins": [
         "tasklist"
-    ]
+    ],
+    "pluginsConfig": {
+        "sharing": {
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "weibo": false,
+            "instapaper": false,
+            "vk": false,
+            "all": "facebook,google,twitter,weibo,instapaper"
+        }
+    }
 }

@@ -25,11 +25,11 @@ Te биват използвани масово сред програмисти�
 
 > Нямаме предпочитания за версията на Ubuntu, стига тя да работи и да не ви създава проблеми ако я използвате успоредно с Windows.
 
+Няколко линка с напътствия как да си инсталирате Ubuntu:
+
+[Инсталиране на Ubuntu виртуална машина чрез VirtualBox](https://www.lifewire.com/install-ubuntu-linux-windows-10-steps-2202108)
+
+[Инсталиране на Ubuntu dual-boot с Windows 10](https://www.lifewire.com/run-ubuntu-within-windows-virtualbox-2202098)
+
 [^1]: [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel)
-
-[^2]: [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu_(operating_system))
-
-[^3]: [Shell](https://en.wikipedia.org/wiki/Unix_shell)
-
-[^4]: [Multi-booting](https://en.wikipedia.org/wiki/Multi-booting)
 

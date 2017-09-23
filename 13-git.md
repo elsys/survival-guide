@@ -1,5 +1,7 @@
 # Git
 
+---
+
 ![](https://imgs.xkcd.com/comics/git.png)
 
 Преди да продължите нататък:

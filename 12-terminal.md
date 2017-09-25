@@ -184,23 +184,8 @@ policyID,statecode,county,eq_site_limit,hu_site_limit,fl_site_limit,fr_site_limi
 119736,FL,CLAY COUNTY,498960,498960,498960,498960,498960,792148.9,0,9979.2,0,0,30.102261,-81.711777,Residential,Masonry,1
 448094,FL,CLAY COUNTY,1322376.3,1322376.3,1322376.3,1322376.3,1322376.3,1438163.57,0,0,0,0,30.063936,-81.707664,Residential,Masonry,3
 206893,FL,CLAY COUNTY,190724.4,190724.4,190724.4,190724.4,190724.4,192476.78,0,0,0,0,30.089579,-81.700455,Residential,Wood,1
-333743,FL,CLAY COUNTY,0,79520.76,0,0,79520.76,86854.48,0,0,0,0,30.063236,-81.707703,Residential,Wood,3
-172534,FL,CLAY COUNTY,0,254281.5,0,254281.5,254281.5,246144.49,0,0,0,0,30.060614,-81.702675,Residential,Wood,1
-785275,FL,CLAY COUNTY,0,515035.62,0,0,515035.62,884419.17,0,0,0,0,30.063236,-81.707703,Residential,Masonry,3
-995932,FL,CLAY COUNTY,0,19260000,0,0,19260000,20610000,0,0,0,0,30.102226,-81.713882,Commercial,Reinforced Concrete,1
-223488,FL,CLAY COUNTY,328500,328500,328500,328500,328500,348374.25,0,16425,0,0,30.102217,-81.707146,Residential,Wood,1
-433512,FL,CLAY COUNTY,315000,315000,315000,315000,315000,265821.57,0,15750,0,0,30.118774,-81.704613,Residential,Wood,1
-142071,FL,CLAY COUNTY,705600,705600,705600,705600,705600,1010842.56,14112,35280,0,0,30.100628,-81.703751,Residential,Masonry,1
-253816,FL,CLAY COUNTY,831498.3,831498.3,831498.3,831498.3,831498.3,1117791.48,0,0,0,0,30.10216,-81.719444,Residential,Masonry,1
-894922,FL,CLAY COUNTY,0,24059.09,0,0,24059.09,33952.19,0,0,0,0,30.095957,-81.695099,Residential,Wood,1
-422834,FL,CLAY COUNTY,0,48115.94,0,0,48115.94,66755.39,0,0,0,0,30.100073,-81.739822,Residential,Wood,1
-582721,FL,CLAY COUNTY,0,28869.12,0,0,28869.12,42826.99,0,0,0,0,30.09248,-81.725167,Residential,Wood,1
-842700,FL,CLAY COUNTY,0,56135.64,0,0,56135.64,50656.8,0,0,0,0,30.101356,-81.726248,Residential,Wood,1
-874333,FL,CLAY COUNTY,0,48115.94,0,0,48115.94,67905.07,0,0,0,0,30.113743,-81.727463,Residential,Wood,1
-580146,FL,CLAY COUNTY,0,48115.94,0,0,48115.94,66938.9,0,0,0,0,30.121655,-81.732391,Residential,Wood,3
-456149,FL,CLAY COUNTY,0,80192.49,0,0,80192.49,86421.04,0,0,0,0,30.109537,-81.741661,Residential,Wood,1
-767862,FL,CLAY COUNTY,0,48115.94,0,0,48115.94,73798.5,0,0,0,0,30.11824,-81.745335,Residential,Wood,3
-# trimmed 
+
+# trimmed
 ```
 
 ### head и tail
@@ -242,13 +227,86 @@ $ tail FL_insurance_sample.csv
 
 Командата `less` ни позволява да разгледаме целия файл, но за разлика от `cat` не просто принтира цялото съдържание на екрана, а позволява да се навигира из файла използвайки PageUp/PageDown, както и да се търси чрез `/`.
 
- ![](/assets/less.png)
+![](/assets/less.png)
 
 > Излизането от less става чрез натискане на `q`.
 
 ## Компилация
 
 За компилиране на нашите файлове код ще използваме компилаторът `gcc`.
+
+Компилацията е процес, при който сорс кодът на програмата се превежда до машинен код. Резултатният файл от компилацията е изпълним и чрез него може да бъде пусната програмата.
+
+### Здравей, свят
+
+Ако се опитаме да компилираме следният C файл.
+
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Hello, world!\n");
+    return 0;
+}
+```
+
+```
+$ gcc file.c
+$ ls
+a.out  file.c
+```
+
+Новосъздаденият файл `a.out` може да бъде пуснат чрез `./a.out`.
+
+```
+$ ./a.out
+Hello, world
+```
+
+### Компилационни грешки и предупреждения
+
+Ако програмата има грешки или компилаторът намери слабости в нея, то при `gcc file.c` ще получим описателен текст какъкв е проблемът. Ако например забравим да напишем `include` в горният пример ще получим следния изход от компилатора:
+
+```
+$ gcc file.c
+file.c: In function ‘main’:
+file.c:2:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("Hello, world!");
+  ^~~~~~
+file.c:2:2: warning: incompatible implicit declaration of built-in function ‘printf’
+file.c:2:2: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+```
+
+В случая получаваме само предупреждение, че не сме добавили декларация за функцията `printf`. 
+
+Възможно е да получим и грешка, нека се опитаме да компилираме този код:
+
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Hello, world\n");
+    return 0;
+// missing closing bracket
+```
+
+```
+$ gcc file.c
+file.c: In function ‘main’:
+file.c:5:2: error: expected declaration or statement at end of input
+  return 0;
+  ^~~~~~
+```
+
+При дори и един error не се продуцира `a.out` изпълним файл. Ако имате такъв файл, то той е от предишната компилация.
+
+### Стандартизирано компилиране
+
+За да се компилират еднакво нашите програми с еднакви грешки и предупредителни съобщения ще използваме редица аргументи към `gcc`, които подсигуряват строгото спазване на стандарта C11[^1] без никакви добавки и включени повечето видове предупреждения.
+
+```bash
+$ gcc -Wall -pedantic -std=c11 file.c
+```
 
 ## Полезни линкове
 
@@ -260,5 +318,5 @@ $ tail FL_insurance_sample.csv
 
 
 
-[^1]: [https://en.wikipedia.org/wiki/Concatenation](https://en.wikipedia.org/wiki/Concatenation)
+[^1]: [https://en.wikipedia.org/wiki/C11\_\(C\_standard\_revision\)](https://en.wikipedia.org/wiki/C11_%28C_standard_revision%29)
 

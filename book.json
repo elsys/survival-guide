@@ -1,6 +1,6 @@
 {
     "plugins": [
-        "tasklist"
+        "tasklist", "katex"
     ],
     "pluginsConfig": {
         "sharing": {

@@ -19,7 +19,7 @@
   * [Цикли](/programming-in-c/c-basics/loops.md)
   * [Функции](/programming-in-c/c-basics/functions.md)
     * [Основи](programming-in-c/c-basics/functions/osnovi.md)
-    * Функции в C
+    * [Функции в C](programming-in-c/c-basics/functions/funktsii-v-c.md)
     * Рекурсия
   * [Масиви](/programming-in-c/c-basics/arrays.md)
   * Символни низове

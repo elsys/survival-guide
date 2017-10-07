@@ -15,9 +15,12 @@
 * [Основи в програмният език C](/programming-in-c/c-basics/README.md)
   * [Hello C](/programming-in-c/c-basics/hello-c.md)
   * [Типове](/programming-in-c/c-basics/c-types.md)
-  * [Цикли](/programming-in-c/c-basics/loops.md)
   * [Условия](/programming-in-c/c-basics/conditions.md)
+  * [Цикли](/programming-in-c/c-basics/loops.md)
   * [Функции](/programming-in-c/c-basics/functions.md)
+    * [Основи](programming-in-c/c-basics/functions/osnovi.md)
+    * Функции в C
+    * Рекурсия
   * [Масиви](/programming-in-c/c-basics/arrays.md)
   * Символни низове
   * Вход и изход
@@ -25,20 +28,18 @@
   * Препроцесор
 * [C за напреднали](/programming-in-c/c-advanced.md)
   * Структури
-  * Указатели
-    * Масиви и указатели
+  * [Указатели](programming-in-c/c-advanced/ukazateli.md)
+    * [Масиви и указатели](programming-in-c/c-advanced/ukazateli/masivi-i-ukazateli.md)
   * Динамична памет
 * [Структури от данни](/programming-in-c/data-structures-c.md)
-  * Стек
-  * Вектор
+  * [Вектор](programming-in-c/data-structures-c/vektor.md)
+  * [Стек](programming-in-c/data-structures-c/stek.md)
   * Едносвързан списък
-  * Двусвързан списък
-  * Опашка
-  * Дървета
-  * Граф
+  * [Двусвързан списък](programming-in-c/data-structures-c/dvusvrzan-spisk.md)
+  * [Опашка](programming-in-c/data-structures-c/opashka.md)
+  * [Дървета](programming-in-c/data-structures-c/drveta.md)
+  * [Граф](programming-in-c/data-structures-c/graf.md)
   * Асоциативен масив
 
 ## Обектно-Ориентирано Програмиране
-
-
 

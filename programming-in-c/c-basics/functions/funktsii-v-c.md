@@ -152,11 +152,11 @@ float safe_divide(float numerator, float denumerator) {
 int main() {
     float inputs[] = {3.14, 2.71, 42};
     float outputs[3];
-    
+
     for(int i = 0; i < 3; i++) {
         outputs[i] = safe_divide(inputs[i], 10); // result saved in array with same index
     }
-    
+
     for(int i = 0; i < 3; i++) {
         printf("%f ", outputs[i]);
     }

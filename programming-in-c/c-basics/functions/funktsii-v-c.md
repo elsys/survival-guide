@@ -316,7 +316,7 @@ int main() {
     return 0;
 }
 
-void greet_person(char *name) {
+void greet_person(char *name) { // greet_person definition
     printf("Hello, %s\n", name);
 }
 ```

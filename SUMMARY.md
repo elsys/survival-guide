@@ -24,8 +24,8 @@
   * [Масиви](/programming-in-c/c-basics/arrays.md)
   * Символни низове
   * Вход и изход
-  * Файлове
-  * Препроцесор
+  * [Файлове](programming-in-c/c-basics/failove.md)
+  * [Препроцесор](programming-in-c/c-basics/preprotsesor.md)
 * [C за напреднали](/programming-in-c/c-advanced.md)
   * Структури
   * [Указатели](programming-in-c/c-advanced/ukazateli.md)

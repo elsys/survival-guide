@@ -14,6 +14,9 @@
 
 * [Основи в програмният език C](/programming-in-c/c-basics/README.md)
   * [Hello C](/programming-in-c/c-basics/hello-c.md)
+    * [Анализиране](programming-in-c/c-basics/hello-c/razbirane-na-zadaeniyat-problem.md)
+    * [Итеративен подход](programming-in-c/c-basics/hello-c/iterativen-podhod.md)
+    * [Имплементация](programming-in-c/c-basics/hello-c/implementatsiya.md)
   * [Типове](/programming-in-c/c-basics/c-types.md)
   * [Условия](/programming-in-c/c-basics/conditions.md)
   * [Цикли](/programming-in-c/c-basics/loops.md)

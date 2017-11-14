@@ -9,7 +9,7 @@
 > * 1 year to 2 years: acolyte
 > * 2 years to 3 years: adept
 > * 3 years to 8 years: expert
-> * at 8 years: discovers [comp.lang.c](news:comp.lang.c)
+> * at 8 years: discover [comp.lang.c](http://www.ungerhu.com/jxh/clc.welcome.txt)
 > * 8 years+: buggrit, back to beginner again !"
 >
 > — Richard Heathfield.

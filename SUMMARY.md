@@ -20,6 +20,7 @@
   * [Типове](/programming-in-c/c-basics/c-types.md)
     * [Променливи](programming-in-c/c-basics/c-types/promenlivi.md)
     * [Типове в С](programming-in-c/c-basics/c-types/tipove-v-s.md)
+    * [Работа с типове](programming-in-c/c-basics/c-types/rabota-s-tipove.md)
   * [Условия](/programming-in-c/c-basics/conditions.md)
   * [Цикли](/programming-in-c/c-basics/loops.md)
   * [Функции](/programming-in-c/c-basics/functions.md)

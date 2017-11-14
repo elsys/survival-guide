@@ -69,7 +69,7 @@ int is_prime(int number) {
 
 ```c
 int main() {
-    
+
     printf("is 3 prime = %d\n", is_prime(3));
     printf("is 12 prime = %d\n", is_prime(12));
     printf("is 17 prime = %d\n", is_prime(17));
@@ -128,17 +128,17 @@ int main() {
     printf("is -1 prime = %d\n", is_prime(-1));
 
     printf("Frist 10 prime numbers: ");
-    
-    int c = 0;
-    int n = 1;
-    while(c < 10) {
-        if (is_prime(n)) {
-            printf("%d ", n);
-            c++;
+
+    int counter = 0;
+    int next_prime = 1;
+    while(counter < 10) {
+        if (is_prime(next_prime)) {
+            printf("%d ", next_prime);
+            counter++;
         }
-        n++;
+        next_prime++;
     }
-    
+
     printf("\n");
 
     return 0;
